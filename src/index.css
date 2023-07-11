@@ -65,3 +65,45 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.navBar {
+  text-align: center;
+  background-color: #242424;
+  color: #f9f9f9;
+  height: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media(max-width: 799px){
+  .swiper {
+  width: 100vh;
+  height: 75vh;
+}
+}
+
+@media(min-width: 800px){
+  .swiper {
+  width: 70vw;
+  height: 70vh;
+}
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

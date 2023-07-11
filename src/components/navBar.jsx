@@ -1,5 +1,5 @@
 export default function Nav(){
     return (
-        <div><span>Hair by Savannah</span></div>
+        <div className="navBar"><span>Hair by Savannah</span></div>
     )
 }
