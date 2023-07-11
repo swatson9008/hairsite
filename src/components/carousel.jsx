@@ -1,9 +1,10 @@
-import { register } from 'swiper/element/bundle';
+
 import img1 from '../assets/img1.jpeg'
 import img2 from '../assets/img2.jpeg'
 import img3 from '../assets/img3.jpeg'
 import img4 from '../assets/img4.jpeg'
 
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -11,13 +12,15 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import './styles.css';
+
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-export default function Caro() {
+export default function App() {
   return (
     <>
-    <Swiper
+      <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
