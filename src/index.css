@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --swiper-theme-color: white;
 }
 
 a {
@@ -26,7 +27,9 @@ a:hover {
 body {
   margin: 0;
   position: relative;
-  height: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #9ac9f1;
 }
 
 h1 {
@@ -103,9 +106,27 @@ button:focus-visible {
   align-items: center;
 }*/
 
-.swiper {
+.swiper-slide img {
+  display: block;
+  width: 100vw;
+  height: 80vh;
+  object-fit:cover;
+}
+
+@media(max-width: 799px){
+  .swiper {
   width: 100%;
   height: 100%;
+}
+
+}
+
+@media(min-width: 800px){
+  .swiper {
+  width: 70%;
+  height: 50%;
+}
+
 }
 
 .swiper-slide {
@@ -117,11 +138,4 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100vw;
-  height: 80vh;
-  object-fit:cover;
 }
