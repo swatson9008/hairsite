@@ -1,4 +1,5 @@
 import scissors from '../assets/scissors.svg'
+import comb from '../assets/comb.svg'
 import { MotionAnimate } from 'react-motion-animate'
 
 export default function Bio() {
@@ -16,6 +17,15 @@ export default function Bio() {
             <div className="circle">
                 <div className="circleText">some sample text</div>
             </div>
+            <div className="comb">
+                <MotionAnimate 
+                    animation='fadeInUp' 
+                    delay={0.2}
+                    speed={1.5}
+                    distance={60}
+                    reset={true}>
+                        <img src={comb} alt=""/>
+                </MotionAnimate></div>
         </div>
     )
 }
