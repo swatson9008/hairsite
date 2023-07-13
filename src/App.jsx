@@ -1,5 +1,6 @@
 import Nav from "./components/navBar"
 import Caro from "./components/carousel"
+import Bio from "./components/bio"
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <main>
       <Nav />
       <Caro />
+      <Bio />
     </main>
   )
 }
