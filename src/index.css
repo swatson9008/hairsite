@@ -265,6 +265,10 @@ button:focus-visible {
   align-items: center;
 }
 
+.bioAdjust{
+  overflow-x: hidden;
+}
+
 .circle
     {
       display: flex;
