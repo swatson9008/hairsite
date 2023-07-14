@@ -291,3 +291,13 @@ button:focus-visible {
 .insiderPic {
   flex-basis: 50%;
 }
+
+.gMaps {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #242424;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
