@@ -75,11 +75,14 @@ button:focus-visible {
   text-align: center;
   background-color: #242424;
   color: #f9f9f9;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-content: center;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
 }
 
 
