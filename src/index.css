@@ -186,6 +186,10 @@ button:focus-visible {
 
 }
 
+.quotesContainer {
+  gap: 25px;
+}
+
 }
 
 @media(min-width: 900px){
